@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+
+#navigation {
+	position: absolute;
+	right: 153px;
+	top: 22px;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: ariel, sans-serif;
+	font-size: 13px;
+	color: #606060;
+}
+
+#navigation ul li {
+	display: inline;
+	padding: 6px;
+}
+
+#header img {
+	position: absolute;
+	right: 120px;
+	top: 20px;
+}
+
+#signin {
+	position: absolute;
+	right: 37px;
+	top: 15px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	background-color: #6699FF;
+	text-align: center;
+	width: 64px;
+	height: 22px;
+	padding-top: 5px;
+	border-radius: 2px;
+	color: white;
+}
+
+#center {
+	position: relative;
+}
+
+#center img {
+	position: absolute;
+	top: 138px;
+	left: 472px;
+}
+
+#mic {
+	position: absolute;
+	top: 310px;
+	left: 845px;
+}
+
+input {
+	position: absolute;
+	top: 250px;
+	left: 320px;
+	width: 550px;
+	height: 34px;
+	border: 1px solid #6699FF;
+}
+
+#leftbutton {
+	position: absolute;
+	bottom: 140px;
+	left: 464px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	width: 121px;
+	height: 25px;
+	padding-top: 10px;
+	border-radius: 2px;
+	background-color: #F0F0F0;
+	color: #606060;
+}
+
+#rightbutton {
+	position: absolute;
+	bottom: 140px;
+	right: 431px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	width: 136px;
+	height: 25px;
+	padding-top: 10px;
+	border-radius: 2px;
+	background-color: #F0F0F0;
+	color: #606060;
+}
+
+#footer {
+	position: absolute;
+	border: 1px solid #D8D8D8;
+	height: 35px;
+	width: 1162px;
+	bottom: 0;
+	background-color: #F0F0F0;
+}
+
+#leftfooter ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 12px;
+	left: 20px;
+	font-family: ariel, sans-serif;
+	font-size: 13px;
+	color: #606060
+}
+
+#leftfooter ul li {
+	display: inline;
+	padding: 10px;
+}
+
+#rightfooter ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 12px;
+	right: 20px;
+	font-family: ariel, sans-serif;
+	font-size: 13px;
+	color: #606060
+}
+
+#rightfooter ul li {
+	display: inline;
+	padding: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #606060;
+	text-decoration: none;
+}
